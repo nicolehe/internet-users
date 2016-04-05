@@ -12,7 +12,7 @@ _.each(gapminderData, function(datum) {
 
 console.log(countriesWithInternetPercent);
 
-    document.write('<svg class="chart" width="3000" height="5600" id="graph">');
+    document.write('<svg class="chart" width=100% height="5600" id="graph">');
 _.each(countriesWithInternetPercent, function(oneCountryWithInternetPercent, oneCountryName) {
     var bar = window.innerWidth * (Math.ceil(oneCountryWithInternetPercent) /110);
     var textLocation = bar + 5;
